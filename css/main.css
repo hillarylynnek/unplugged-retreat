@@ -110,6 +110,7 @@ footer {
 /* --- Header Styles ----*/
 
 header {
+    padding: 15px 0;
 
 }
 
@@ -117,6 +118,7 @@ header.content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0;
 
 }
 
@@ -125,7 +127,7 @@ header figure {
 }
 
 .header-divider {
-
+    width: 100%;
 
 }
 
@@ -134,12 +136,14 @@ header nav {
     justify-content: space-around;
     align-items: center;
     flex-flow: row wrap;
+    width: 60%;
 }
 
 header ul {
     display: flex;
     justify-content: flex;
     align-items: flex;
+    width: 44%;
 }
 
 /* ------- Mobile Styles ---------*/
@@ -171,13 +175,17 @@ aside {
 
 .features {
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
-
+    flex-flow: row wrap;
 }
 
-.features-item {
+p.features {
+    margin: 0;
+}
 
+article.features-item {
+    width: 44%
 }
 
 .fontawesome-icon {
@@ -193,7 +201,10 @@ aside {
     justify-content: flex-start;
     align-items: flex-start;
     flex-flow: row wrap;
+}
 
+.reviews h3 {
+    width: 88%;
 }
 
 .mission {
@@ -231,40 +242,39 @@ aside {
 /* Footer */
 
 footer {
-
+   
 }
 
 footer.content-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 55%;
+    margin: 50px 0;
+}
 
+footer p {
+    margin: 0;
 }
 
 .footer-content {
-
 }
 
 address {
 
+
 }
 
 .contact {
-
+ 
 }
 
 .social {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    
 }
 
 .social-icons {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
+    
 }
 
 .copyright {
