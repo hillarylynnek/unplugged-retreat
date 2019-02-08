@@ -96,14 +96,180 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+/* -- Base Header and Footer Styles */
+
+header, 
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
+
+/* --- Header Styles ----*/
+
+header {
+
+}
+
+header.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+header figure {
+
+}
+
+.header-divider {
 
 
+}
+
+header nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+header ul {
+    display: flex;
+    justify-content: flex;
+    align-items: flex;
+}
+
+/* ------- Mobile Styles ---------*/
+
+.hero-area {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+
+}
 
 
+aside {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.form-description {
+
+}
+
+.form {
+
+}
 
 
+.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+}
 
+.features-item {
+
+}
+
+.fontawesome-icon {
+
+}
+
+.features-item-description {
+
+}
+
+.reviews {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-flow: row wrap;
+
+}
+
+.mission {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.mission-contact {
+
+}
+
+.map {
+
+}
+
+.contact-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.faq-questions {
+
+}
+
+/* Footer */
+
+footer {
+
+}
+
+footer.content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.footer-content {
+
+}
+
+address {
+
+}
+
+.contact {
+
+}
+
+.social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.copyright {
+
+}
 
 
 
