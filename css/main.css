@@ -285,10 +285,6 @@ address {
 
 
 
-
-
-
-
 /* ==========================================================================
    Helper classes
    ========================================================================== */
@@ -375,15 +371,109 @@ address {
    Modify as content requires.
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+@media only screen and (min-width: 768px) {
+    /* Tablet Styles */
+
+/*------Tablet Homepage Styles---------*/
+
+header {
+    justify-content: flex-start;
+    padding: 0 50px;
 }
 
-@media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+header.content-wrapper {
+    justify-content: flex-start;
+
+}
+
+header nav ul {
+    justify-content: center;
+}
+
+aside.content-wrapper {
+    display: flex;
+    justify-content: center;
+    flex-flow: row wrap;
+}
+
+article.features-item {
+    width: 72%;
+}
+
+
+article.features {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.features {
+    padding: 0px 60px;
+}
+
+article.reviews {
+    display: flex;
+    justify-content: center;
+}
+
+.reviews {
+    padding: 0px 60px;
+}
+
+footer {
+    width: 66%;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/*-----About Tablet Styles--------*/
+
+.mission-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mission-content p {
+    width: 50%;
+}
+
+.content-section, .content-wrapper h2 {
+    width: 83%;
+}
+
+.contact-content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/*------FAQ Tablet Styles-------*/
+
+.faq .content-wrapper {
+    justify-content: space-between;
+}
+
+.faq-content {
+    flex-basis: 40%;
+}
+
+.faq-questions h2 {
+    width: 100%;
+}
+
+}
+
+
+@media only screen and (min-width: 1200px) {
+    /* Desktop Styles */
+
 }
 
 /* ==========================================================================
