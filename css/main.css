@@ -96,6 +96,13 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
+
+
+.content-wrapper {
+  width: 90%;
+  margin: 50px 0;
+}
+
 /* -- Base Header and Footer Styles */
 
 header, 
@@ -114,7 +121,7 @@ header {
 
 }
 
-header.content-wrapper {
+.content-wrapper header {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -180,11 +187,11 @@ aside {
     flex-flow: row wrap;
 }
 
-p.features {
+.features p {
     margin: 0;
 }
 
-article.features-item {
+.features-item article {
     width: 44%
 }
 
@@ -228,15 +235,30 @@ article.features-item {
     align-items: center;
 }
 
+/* FAQ PAGE */
+
 .faq-content {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-flow: row wrap;
+    flex-flow: row-wrap;
+}
+
+.faq-content .content-wrapper {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
+
+
+.faq-content h2 {
+    margin-bottom: 40px;
 }
 
 .faq-questions {
-
+    margin-bottom: 50px;
 }
 
 /* Footer */
@@ -245,7 +267,7 @@ footer {
    
 }
 
-footer.content-wrapper {
+.content-wrapper footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -374,34 +396,40 @@ address {
 @media only screen and (min-width: 768px) {
     /* Tablet Styles */
 
+.content-wrapper {
+max-width: 640px;
+margin: 100px 0;
+}
+
 /*------Tablet Homepage Styles---------*/
 
 header {
-    justify-content: flex-start;
-    padding: 0 50px;
+    justify-content: space-around;
 }
 
-header.content-wrapper {
-    justify-content: flex-start;
+header .content-wrapper {
+    justify-content: space-between;
+    width: 100%;
 
 }
 
 header nav ul {
-    justify-content: center;
+    justify-content: space-between;
+    width: 20%;
 }
 
-aside.content-wrapper {
+.content-wrapper aside {
     display: flex;
     justify-content: center;
     flex-flow: row wrap;
 }
 
-article.features-item {
+.features-item article {
     width: 72%;
 }
 
 
-article.features {
+.features article {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -412,7 +440,7 @@ article.features {
     padding: 0px 60px;
 }
 
-article.reviews {
+.reviews article {
     display: flex;
     justify-content: center;
 }
@@ -421,8 +449,8 @@ article.reviews {
     padding: 0px 60px;
 }
 
-footer {
-    width: 66%;
+footer .content-wrapper {
+    width: 55%%;
 }
 
 .footer-content {
@@ -431,7 +459,7 @@ footer {
     align-items: center;
 }
 
-/*-----About Tablet Styles--------*/
+/*-----About Page Tablet Styles--------*/
 
 .mission-content {
     display: flex;
@@ -454,17 +482,18 @@ footer {
 }
 
 
-/*------FAQ Tablet Styles-------*/
+/*------FAQ Page Tablet Styles-------*/
 
-.faq .content-wrapper {
+.faq-content .content-wrapper {
     justify-content: space-between;
 }
 
-.faq-content {
+.faq-questions {
     flex-basis: 40%;
+
 }
 
-.faq-questions h2 {
+.faq-content h2 {
     width: 100%;
 }
 
