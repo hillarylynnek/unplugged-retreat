@@ -214,6 +214,8 @@ aside {
     width: 88%;
 }
 
+/*-----About-------*/
+
 .mission {
     display: flex;
     justify-content: center;
@@ -221,7 +223,7 @@ aside {
     flex-flow: row wrap;
 }
 
-.mission-contact {
+.mission-content {
 
 }
 
@@ -233,7 +235,19 @@ aside {
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-flow: row wrap;
 }
+.contact-section, .content-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.contact-content p {
+    margin: 0;
+}
+
 
 /* FAQ PAGE */
 
@@ -282,10 +296,7 @@ footer p {
 .footer-content {
 }
 
-address {
 
-
-}
 
 .contact {
  
@@ -468,16 +479,16 @@ footer .content-wrapper {
 }
 
 .mission-content p {
-    width: 50%;
+    width: 45%;
 }
 
-.content-section, .content-wrapper h2 {
-    width: 83%;
+.contact-section, .content-wrapper h2 {
+    width: 90%;
 }
 
-.contact-content {
+ .contact-content .content-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -489,7 +500,7 @@ footer .content-wrapper {
 }
 
 .faq-questions {
-    flex-basis: 40%;
+    flex-basis: 45%;
 
 }
 
