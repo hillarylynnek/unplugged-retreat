@@ -172,13 +172,27 @@ aside {
 }
 
 .form-description {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
 .form {
-
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
+
+.features .content-wrapper {
+  margin: 50px 0 0 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-flow: row wrap;
+}
 
 .features {
     display: flex;
@@ -191,8 +205,12 @@ aside {
     margin: 0;
 }
 
-.features-item article {
-    width: 44%
+.features-items {
+    width: 60%;
+}
+
+.features article {
+    margin-bottom: 50px;
 }
 
 .fontawesome-icon {
@@ -429,26 +447,59 @@ header nav ul {
     width: 20%;
 }
 
-.content-wrapper aside {
+.header-divider {
+    display: none;
+}
+aside .content-wrapper {
+    margin: 50px 0;
+}
+
+aside .content-wrapper {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     flex-flow: row wrap;
 }
 
-.features-item article {
-    width: 72%;
+aside .content-wrapper .form-description, 
+aside .content-wrapper .form {
+    width: 42%
+    margin 0;
 }
 
-
-.features article {
+.form-description {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
+    width: 42%;
+    margin: 0;
 }
 
-.features {
-    padding: 0px 60px;
+
+.form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 42%;
+    margin: 0;
+    flex-flow: row wrap;
+}
+
+
+.features-items {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    flex-basis: 72%;
+}
+
+.features article {
+    width: 45%;
+}
+
+.features-items p {
+    text-align: center;
 }
 
 .reviews article {
