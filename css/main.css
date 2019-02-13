@@ -221,16 +221,29 @@ aside {
 
 }
 
-.reviews {
+
+
+.reviews article {
     display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     flex-flow: row wrap;
 }
 
 .reviews h3 {
-    width: 88%;
+    width: 90%;
+    margin:0;
 }
+
+.reviews h1 {
+    width: 90% 
+}
+
+
+.reviews p {
+    width: 90%;
+}
+
 
 /*-----About-------*/
 
@@ -312,16 +325,17 @@ footer p {
 }
 
 .footer-content {
+
 }
 
 
 
 .contact {
- 
+    text-align: center;
 }
 
 .social {
-    
+    text-align: center;
 }
 
 .social-icons {
@@ -329,6 +343,7 @@ footer p {
 }
 
 .copyright {
+     margin-bottom: 10px;
 
 }
 
@@ -505,21 +520,22 @@ aside .content-wrapper .form {
 .reviews article {
     display: flex;
     justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
 }
 
-.reviews {
-    padding: 0px 60px;
-}
-
-footer .content-wrapper {
-    width: 55%%;
+.reviews .content-wrapper {
+    
 }
 
 .footer-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
+    flex-basis: 65%;
 }
+
+
 
 /*-----About Page Tablet Styles--------*/
 
@@ -564,6 +580,30 @@ footer .content-wrapper {
 
 @media only screen and (min-width: 1200px) {
     /* Desktop Styles */
+
+.content-wrapper {
+   max-width: 960px;
+}
+
+/*----Desktop Homepage Styles-------*/
+
+
+
+/*---Hero---*/
+
+/*---Aside---*/
+
+/*---Features---*/
+
+/*---Review---*/
+
+
+
+/*------------------------ABOUT PAGE DESKTOP STYLES-----------------------*/
+
+
+
+/*------------------------FAQ PAGE DESKTOP STYLES--------------------------*/
 
 }
 
