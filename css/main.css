@@ -309,13 +309,11 @@ aside {
 /* Footer */
 
 footer {
+    flex-direction: column;
    
 }
 
-.content-wrapper footer {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+footer .content-wrapper {
     width: 55%;
     margin: 50px 0;
 }
@@ -324,18 +322,14 @@ footer p {
     margin: 0;
 }
 
-.footer-content {
-
-}
-
 
 
 .contact {
-    text-align: center;
+
 }
 
 .social {
-    text-align: center;
+
 }
 
 .social-icons {
@@ -532,11 +526,24 @@ aside .content-wrapper .form {
     
 }
 
+
+footer .content-wrapper {
+    width: 65%;
+    margin: 100px 0;
+}
+
 .footer-content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    flex-basis: 65%;
+}
+
+footer .contact {
+    margin-bottom: 0;
+}
+
+footer .copyright {
+    width: 100%;
 }
 
 
@@ -634,20 +641,6 @@ aside .content-wrapper .form {
 
 .reviews article div {
     width: 42%;
-}
-
-
-/*----Footer----*/
-
-footer {
-    width: 85%;
-}
-
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    flex-basis: 80%;
 }
 
 
