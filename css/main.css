@@ -121,6 +121,7 @@ a {
 h1 {
     font-weight: normal;
     font-family: 'Poppins', sans-serif;
+    color: #e2e3ed;
 }
 
 h2 {
@@ -315,12 +316,20 @@ aside {
     flex-flow: row wrap;
 }
 
+.mission {
+    background-color: #527158;
+}
+
 .mission-content {
 
 }
 
 .map {
 
+}
+
+.contact-section {
+    background-color: #2a423a;
 }
 
 .contact-section {
@@ -338,10 +347,18 @@ aside {
 
 .contact-content p {
     margin: 0;
+    font-weight: lighter;
 }
 
+.contact-content {
+    font-style: normal;
+}
 
 /* FAQ PAGE */
+
+.faq-content {
+    background-color: #527158;
+}
 
 .faq-content {
     display: flex;
