@@ -636,16 +636,33 @@ aside .content-wrapper .form {
     text-align: center;
 }
 
+.reviews .content-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+section figure {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .reviews article {
+    width: 50%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-flow: row wrap;
 }
 
-.reviews .content-wrapper {
-    
+.reviews h2 {
+    margin-bottom: 0;
 }
+
+
 
 footer .content-wrapper {
     width: 65%;
@@ -761,11 +778,26 @@ aside .content-wrapper .form {
 
 /*---Review---*/
 
-.reviews article div {
-    width: 42%;
+
+
+section figure {
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.reviews article {
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-flow: row wrap;
+}
 
+.reviews p {
+    line-height: 22px;
+}
 
 /*------------------------ABOUT PAGE DESKTOP STYLES-----------------------*/
 
