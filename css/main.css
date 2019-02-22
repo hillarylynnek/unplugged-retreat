@@ -294,6 +294,10 @@ aside {
     margin: 0;
 }
 
+.features-items p {
+    text-align: center;
+}
+
 /* Reviews */
 
 .reviews {
